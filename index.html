@@ -19,7 +19,6 @@
 
         #plan-list .plan {
             border-radius: 5px;
-            margin-bottom: 5px;
             color: black;
             font-weight: normal;
         }
@@ -106,7 +105,7 @@
 
         function addToList(plan) {
             let div = document.createElement("div");
-            div.className = "plan p-1 rounded-2 ps-2 d-flex align-items-center";
+            div.className = "plan p-1 my-1 rounded-2 ps-2 d-flex align-items-center";
 
             // plan.priority 값을 기반으로 스타일 설정
             if (plan.priority === "high") {
